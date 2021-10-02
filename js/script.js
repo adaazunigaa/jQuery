@@ -197,9 +197,6 @@ $(function()
         'height':'140px',
         'width':'140px'
     }).addClass('circleShape');
-    
-
-    
 
 });
     
