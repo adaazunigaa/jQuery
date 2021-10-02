@@ -98,6 +98,43 @@ $(function()
     
     
 
+
+
+
+
+
+      // jQUERY HIDE/SHOW
+       
+    
+    // $('h1').hide();
+    // $('div.hidden').show();
+    
+    // $('div.hidden').fadeIn(8000);
+    
+    $('#box1').click(function() 
+    {
+        //slow, fast... 
+       $(this).fadeTo( 1000, 0.25, function() 
+       {
+            // this is what happens when the animation is complete
+            // it can be blank
+           
+           $(this).slideUp();
+       }); 
+    });
+    
+    $('div.hidden').slideDown();
+    
+    $('button').click(function() {
+        $('#box1').slideToggle();
+    });
+
+
+
+
+
+    
+
 });
     
 
