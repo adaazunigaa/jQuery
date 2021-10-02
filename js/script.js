@@ -76,12 +76,26 @@ $(function()
     
     $('#box').hover(function() 
     {
+        
         $(this).text('you hovered in!');
-    },
-    function() 
+        
+    }, function() 
     {
+        
         $(this).text('you hovered out!');
+        
     });
+    
+
+
+
+
+   
+       //--jQUERY CHAINING
+     
+    
+       $('.notification-bar').delay(2000).slideDown().delay(3000).fadeOut().css("color", "red").css("background", "yellow");
+    
     
 
 });
